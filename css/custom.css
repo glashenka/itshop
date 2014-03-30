@@ -199,7 +199,8 @@ textarea {
   -moz-border-radius: 3px 3px 3px 3px;
   border-radius: 3px 3px 3px 3px;
   padding: 5px 5px 5px 5px;
-  font-size: large;
+  /*	font-size: large;
+*/
   -webkit-box-shadow: 0 5px 5px -5px rgba(24, 24, 24, 0.25);
   -moz-box-shadow: 0 5px 5px -5px rgba(24, 24, 24, 0.25);
   box-shadow: 0 5px 5px -5px rgba(24, 24, 24, 0.25);
