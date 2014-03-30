@@ -158,23 +158,25 @@
 
 					<section id="contact">
 						
-						<div class="details">		                
-		                    <label for="Name">Name</label>
-		                    <input type="text" name="name" class="form-control" id="rName" placeholder="Enter name" required>
+						<div class="details">
+							<form role="form" method="POST" id="reqForm">           
+			                    <label for="Name"><span class="glyphicon glyphicon-user"></span>&nbsp;Name</label>
+			                    <input type="text" name="name" class="form-control" id="rName" placeholder="Enter name" required>
 
-		                
-		                    <label for="Email"><span class="glyphicon glyphicon-envelope"></span>&nbsp;Email </label>
-		                    <input type="email" name="email" class="form-control" id="rEmail" placeholder="Enter email" required>
+			                
+			                    <label for="Email"><span class="glyphicon glyphicon-envelope"></span>&nbsp;Email </label>
+			                    <input type="email" name="email" class="form-control" id="rEmail" placeholder="Enter email" required>
 
-		                
-		                    <label for="Phone"><span class="glyphicon glyphicon-earphone"></span>&nbsp;Phone number</label>
-		                    <input type="phone" name="phone" class="form-control" id="rPhone" placeholder="Enter phone number" required>
+			                
+			                    <label for="Phone"><span class="glyphicon glyphicon-earphone"></span>&nbsp;Phone number</label>
+			                    <input type="phone" name="phone" class="form-control" id="rPhone" placeholder="Enter phone number" required>
 
-		                
-		                    <label for="Request"><span class="glyphicon glyphicon-comment"></span> Your question</label>
-		                    <textarea class="form-control" rows="5" id="rRequest" name="request" required></textarea>
+			                
+			                    <label for="Request"><span class="glyphicon glyphicon-comment"></span> Your question</label>
+			                    <textarea class="form-control" rows="5" id="rRequest" name="request" required></textarea>
 
-		                	<button type="submit" class="btn-primary" id="Submit">Send!</button>
+			                	<button type="submit" class="btn-primary" id="Submit">Send!</button>
+			                </form>
 		            	</div>
 		            	<div class="lead">
 							<p>Share your most sacred secrets.</p>
@@ -183,21 +185,21 @@
 					<section id="login">
 						
 						<div class="details">		                
-		                    
-
+		                    <form role="form" method="POST" id="loginForm">
 		                
-		                    <label for="Email"><span class="glyphicon glyphicon-envelope"></span>&nbsp;Email </label>
-		                    <input type="email" name="email" class="form-control" id="rEmail" placeholder="Enter email" required>
+			                    <label for="Email"><span class="glyphicon glyphicon-envelope"></span>&nbsp;Email </label>
+			                    <input type="email" name="email" class="form-control" id="rEmail" placeholder="Enter email" required>
 
-		                
-		                    <label for="Phone"><span class="glyphicon glyphicon-earphone"></span>&nbsp;Password</label>
-		                    <input type="password" name="phone" class="form-control" id="rPhone" placeholder="Enter password" required>
+			                
+			                    <label for="Phone"><span class="glyphicon glyphicon-earphone"></span>&nbsp;Password</label>
+			                    <input type="password" name="phone" class="form-control" id="rPhone" placeholder="Enter password" required>
 
-		                    <br>
-		                	<button type="submit" class="btn-primary" id="Submit">Login!</button>
+			                    <br>
+			                	<button type="submit" class="btn-primary" id="Submit">Login!</button>
+			                </form>
 		            	</div>
 		            	<div class="lead">
-							<p>Fasten your seat belts and  refrain from smoking.</p>
+							<p>Fasten your seat belts and refrain from smoking.</p>
 						</div>
 					</section>
 					<div class="line"></div>
@@ -210,13 +212,13 @@
 	<script type="text/javascript" src="js/app.js"></script>
 
 	<script>
-	  // (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  // (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  // m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  // })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-	  // ga('create', 'UA-44848570-1', 'its-service.com.au');
-	  // ga('send', 'pageview');
+	  ga('create', 'UA-44848570-1', 'its-service.com.au');
+	  ga('send', 'pageview');
 
 	</script>
 </body>
